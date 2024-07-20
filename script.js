@@ -17,7 +17,7 @@ const btnNew = document.querySelector (".btn--new");
 let scores, currentScore, activePlayer, playGame;
 
 //initializing fun
-const inti = function (){
+const initialize = function (){
 score0El.textContent = 0;
 score1El.textContent = 0;
 diceEl.classList.add("hidden");
@@ -37,7 +37,7 @@ diceEl.classList.add("hidden");
  player1El.classList.remove('player--active');
 }
 
-inti();
+initialize();
 
 // switch player
 const switchPlayer = function(){
